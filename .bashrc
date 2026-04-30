@@ -16,6 +16,8 @@ alias gcm="git commit -m"
 alias fd="fd -H -I"
 alias rghi="rg --hidden --no-ignore"
 
+alias kt="kotlin"
+
 eval "$(zoxide init bash)"
 
 mkcd() { mkdir -p "$1" && cd "$1"; }
